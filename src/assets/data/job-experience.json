@@ -1,0 +1,32 @@
+[
+    {
+        "position":"Team Lead Software Engineer",
+        "tenure":"March 2019 - Present",
+        "responsibilities":[
+            "Guide team development efforts towards successful project delivery and providing technical leadership to team-mates through coaching and mentorship that includes identifying and encouraging areas for growth and improvements within the team.",
+            "Collaborate with other software developers, business analysts and software architects to plan, design, develop, test, and maintain web-based business applications.",
+            "Analyze and resolve technical and application problems and Assist in the collection and documentation of user's requirements, development of user stories, estimates and work plans.",
+            "Design, develop, and unit test applications in accordance with established standards. And Adhere to high-quality development principles while delivering solutions on-time and on-budget.",
+            "Maintain high standards of software quality within the team by establishing good practices and habits."
+        ]
+    },
+    {
+        "position":"Senior Software Engineer",
+        "tenure":"April 2014 - March 2019 (5 Years)",
+        "responsibilities":[
+            "Collaborate with stakeholders for business requirements, objectives and translate those into technical applications and solutions.",
+            "Collaborate with third party software provider to provide and develop inhouse applications and api's, and at the same time to learn and gain knowledge over the new technology.",
+            "Develop and customize software applications and tools using advance development and coding techniques. Manage all phases of application design – from coding and prototyping through system testing, integration and deployment.",
+            "Develop and enhance programs, contributing to solutions that streamlined processes, increased accuracy and lowered time consumption.",
+            "Develop and architect lifecycle of projects working on different technologies and platforms : Web Applications, Android Mobile Applications and Desktop Applications."
+        ]
+    },
+    {
+        "position":"Junior Software Engineer",
+        "tenure":"September 2013 - December 2013 (3 Months-Project Based)",
+        "responsibilities":[
+            "Participate in daily standup meeting, practicing agile principles and methodologies.",
+            "Write code and adhere to established coding pattern and principles."            
+        ]
+    }
+]

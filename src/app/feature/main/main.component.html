@@ -1,0 +1,38 @@
+<body class="container-fluid p-0">    
+    <div class="body-main">
+        <div class="main main-about flex-grow">
+              <div class="profile-summary d-flex">
+                  <div class="profile-description flex-fill">
+                    <p class="title-text">{{aboutMe?.name}}</p>
+                    <p class="title-sub-text">{{aboutMe?.title}}</p>
+                    <p class="text" *ngFor="let t of aboutMe?.introductions">{{t}}</p>                  
+                  </div>
+                  <img src="./../../../assets/images/German-Shep.jpg" 
+                      alt="profile-photo" 
+                      class="profile-photo-body align-self-center">
+              </div>
+
+              <hr class="section-divider">
+              <div class="profile-skill d-flex">
+                <div class="skill-summary flex-fill">
+                  <p class="title-sub-text-strong">What I do</p>
+                  <p class="text">{{aboutMe?.whatIdo}}
+                  </p>
+                </div>          
+              </div>  
+
+              <hr class="section-divider">
+              <div class="profile-skill-icons">          
+                <div class="row">
+                  
+                  <div class="p-2 bd-highlight col-sm-4 col-md-3 col-lg-3 " *ngFor="let s of skills">
+                    <skill-icon [fa_icon]="s.fa_icon" [fa_class_selector]="s.fa_class_selector" [name]="s.name" [level]="s.level"></skill-icon>   
+                  </div>                                                      
+    
+                </div>       
+            </div>          
+          <hr class="section-divider">
+        </div>
+
+    </div>
+</body>

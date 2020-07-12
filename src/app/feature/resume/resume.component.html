@@ -1,0 +1,79 @@
+  
+  <body class="container-fluid p-0">
+  <div class="body-main">
+      <div class="main main-resume flex-grow">    
+          <div class="resume-header d-flex">
+            <div class="resume-content flex-fill row">
+                <div class="resume-name-title col-lg-9">
+                    <p class="title-text m-0">{{aboutMe?.name}}</p>
+                    <p class="title-sub-text">{{aboutMe?.title}}</p>
+                </div>                
+                <div class="resume-contact-summary col-lg-3">        
+                    <div class="row">
+                        <i class="fa fa-phone-square"></i>
+                        <p>+63 939-917-8418</p>                        
+                    </div>     
+
+                    <div class="row">
+                        <i class="fa fa-envelope"></i>
+                        <p>email@mail.com</p>                        
+                    </div>   
+                          
+                    <div class="row">
+                        <i class="fa fa-location-arrow"></i>
+                        <p>Philippines</p>                        
+                    </div>    
+                                                                                          
+                </div>                           
+            </div>            
+          </div>
+          <hr class="section-divider">
+          <div class="profile-experiences d-flex">
+
+                <div class="experience-summary flex-fill">
+                    <p class="title-sub-text-strong">Experiences</p>
+                    <div class="experiences">
+                        <div class="timeline-exp" *ngFor="let j of jobExperience">
+
+                            <p class="job-title">
+                                {{j.position}}              
+                            </p>
+                            <p class="job-year text">
+                                <i class="fa fa-calendar"></i>
+                                {{j.tenure}}
+                            </p>
+                            <div class="job-information">
+                                <div class="row" *ngFor="let responsibility of j.responsibilities">
+                                    <i class="fa fa-star col-lg-1 col-md-1 col-sm-1 col-xs-2 align-self-center"></i>
+                                    <p class="text col-lg-11 col-md-11 col-sm-11 col-xs-10">                            
+                                        {{responsibility}}
+                                    </p> 
+                                </div>                                    
+                            </div>    
+
+                        </div>                            
+                    </div>    
+                </div>
+
+          </div>   
+          <hr class="section-divider">
+          <div class="profile-skill-icons">                       
+            <p class="title-sub-text-strong">Technical Skills</p>
+            
+            <p class="text">&#10003; Javascript/Typescript</p>
+            <p class="text">&#10003; NodeJs</p>
+            <p class="text">&#10003; Angular</p>
+            <p class="text">&#10003; Amazon Web Services(AWS)</p>
+            <p class="text">&#10003; Microsoft ASP.Net, C#, VB.Net, Xamarin</p>
+            <p class="text">&#10003; Android</p>
+            <p class="text">&#10003; CSS3, SASS, HTML5, Bootstrap</p>
+            <p class="text">&#10003; SQL, MySQL, Intersystem Cache, IBM DB2, PostgresSQL</p>
+            <p class="text">&#10003; Crystal Reports, Jet Reports</p>
+          </div>  
+           
+        <hr class="section-divider">
+      </div>
+  </div>
+  
+  </body>
+  

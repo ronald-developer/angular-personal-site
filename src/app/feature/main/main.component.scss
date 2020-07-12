@@ -1,0 +1,69 @@
+@import './../../../assets/styles/scss/variables';
+@import './../../../assets/styles/scss/mixins-media';
+ ::ng-deep .main-about{   
+
+    .profile-summary{
+        @include sm {
+            flex-direction: column-reverse;                                    
+        } 
+        @include lg {
+            flex-direction: row;                                    
+        } 
+        .profile-photo-body{
+            width: 350px;
+            height: 350px;   
+            margin-bottom: 30px;         
+        }        
+        margin: 20 0 20 0;        
+    }
+    .profile-skill-icons .row{
+        .skill-icon{
+            font-size: 50px;
+        }
+        .javascript-ico i{
+            color: yellowgreen;
+        }
+        .nodejs-ico i{
+            color: forestgreen;
+        }
+        .html-ico i{
+            color: coral;
+        }
+        .angular-ico i{
+            color: red;
+        }
+        .css-ico i{
+            color: blue;
+        }
+        .sass-ico i{
+            color: pink;
+        }
+        .npm-ico i{
+            color: purple;
+        }
+        .aws-ico i{
+            color: orange;
+        }
+        .sql-ico i{
+            color: #717964;
+            font-size: 45px;            
+        }
+        .dotnet-ico i{
+            color: blueviolet;
+            font-size: 45px;            
+        }       
+        
+        .progress.col{
+            background-color: $bgColor;
+            .bg-level-1{ background-color: $themeColor!important;opacity: 0.20;}
+            .bg-level-2{ background-color: $themeColor!important;opacity: 0.40;}
+            .bg-level-3{ background-color: $themeColor!important;opacity: 0.60;}
+            .bg-level-4{ background-color: $themeColor!important;opacity: 0.80;}
+            .bg-level-5{ background-color: $themeColor!important;opacity: 1;}
+        }
+       
+    }
+    .profile-skill-icons skill-icon p,i{
+        text-align: center;
+    }
+}

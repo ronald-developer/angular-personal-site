@@ -1,0 +1,62 @@
+[
+    {
+        "name":"Javascript",
+        "fa_class_selector":"javascript-ico",
+        "fa_icon":"fab fa-js",
+        "level":4
+    },
+    {
+        "name":"NodeJS",
+        "fa_class_selector":"nodejs-ico",
+        "fa_icon":"fab fa-node-js",
+        "level":4
+    },
+    {
+        "name":"HTML5",
+        "fa_class_selector":"html-ico",
+        "fa_icon":"fab fa-html5",
+        "level":4      
+    },
+    {
+        "name":"Angular",
+        "fa_class_selector":"angular-ico",
+        "fa_icon":"fab fa-angular",
+        "level":4        
+    },
+    {
+        "name":"CSS3",
+        "fa_class_selector":"css-ico",
+        "fa_icon":"fab fa-css3-alt",
+        "level":4        
+    },
+    {
+        "name":"SASS",
+        "fa_class_selector":"sass-ico",
+        "fa_icon":"fab fa-sass",
+        "level":4        
+    },
+    {
+        "name":"NPM",
+        "fa_class_selector":"npm-ico",
+        "fa_icon":"fab fa-npm",
+        "level":4        
+    },
+    {
+        "name":"AWS",
+        "fa_class_selector":"aws-ico",
+        "fa_icon":"fab fa-aws",
+        "level":4        
+    },
+    {
+        "name":"SQL",
+        "fa_class_selector":"sql-ico",
+        "fa_icon":"fa fa-database",
+        "level":4        
+    },
+    {
+        "name":".Net",
+        "fa_class_selector":"dotnet-ico",
+        "fa_icon":"fa fa-th-large",
+        "level":4        
+    }     
+]

@@ -1,0 +1,58 @@
+@import './../../../assets/styles/scss/variables';
+@import './../../../assets/styles/scss/mixins-media';
+
+.main-resume{   
+    background-color: $bgColor;
+    .resume-contact-summary{        
+        i{
+            padding-left: 15px;
+            padding-right: 10px;
+        }
+        
+    }
+    .profile-experiences{
+        .experiences{
+            border-left: 2px solid white;
+            position: relative;
+            padding:0;
+            .timeline-exp{
+                .job-title, .job-information{
+                    position: relative;
+                    top: -5;
+                }            
+                position: relative;
+                padding-left: 15px;
+                padding-bottom: 20px;
+                .job-information{
+                    padding-left: 15px;
+                    p{
+                        margin: 5 0 5 0;
+                    }
+                    i{
+                        text-align: center;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .timeline-exp::before {
+                content: "";
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                border-radius: 50px;
+                left: -9px;
+                top: 0;
+                background: $themeColor;
+                border: 2px solid $themeColor;
+            }
+        }
+        
+    }
+    .job-title{
+        font-size: 1.3rem;
+        font-weight: bold;
+        color:$themeColor;
+    }
+}
+
+
