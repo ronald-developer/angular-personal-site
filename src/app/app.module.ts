@@ -9,6 +9,8 @@ import { MainComponent } from './feature/main/main.component';
 import { SkillIconComponent } from './feature/skill-icon/skill-icon.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ResumeComponent } from './feature/resume/resume.component';
+import { BlogComponent } from './feature/blog/blog.component';
+import { ContactMeComponent } from './feature/contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ResumeComponent } from './feature/resume/resume.component';
     NavigationHeaderComponent,
     MainComponent,
     SkillIconComponent,
-    ResumeComponent
+    ResumeComponent,
+    BlogComponent,
+    ContactMeComponent
   ],
   imports: [    
     HttpClientModule,

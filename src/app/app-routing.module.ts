@@ -1,3 +1,5 @@
+import { ContactMeComponent } from './feature/contact-me/contact-me.component';
+import { BlogComponent } from './feature/blog/blog.component';
 
 import { MainComponent } from './feature/main/main.component';
 import { NgModule } from '@angular/core';
@@ -17,6 +19,14 @@ const routes: Routes = [
   {
     path:'resume',
     component: ResumeComponent
+  },
+  {
+    path:'blog',
+    component: BlogComponent
+  },
+  {
+    path:'contact-me',
+    component: ContactMeComponent
   },
   {
       path: '**',

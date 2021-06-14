@@ -1,14 +1,14 @@
 @import './../../../assets/styles/scss/variables';
 @import './../../../assets/styles/scss/mixins-media';
 
-.main-resume{   
+.main-resume{
     background-color: $bgColor;
-    .resume-contact-summary{        
+    .resume-contact-summary{
         i{
             padding-left: 15px;
             padding-right: 10px;
         }
-        
+
     }
     .profile-experiences{
         .experiences{
@@ -19,7 +19,7 @@
                 .job-title, .job-information{
                     position: relative;
                     top: -5;
-                }            
+                }
                 position: relative;
                 padding-left: 15px;
                 padding-bottom: 20px;
@@ -41,12 +41,12 @@
                 height: 16px;
                 border-radius: 50px;
                 left: -9px;
-                top: 0;
+                top: 7px;
                 background: $themeColor;
                 border: 2px solid $themeColor;
             }
         }
-        
+
     }
     .job-title{
         font-size: 1.3rem;
